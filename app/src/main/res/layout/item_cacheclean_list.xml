@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:anroid="http://schemas.android.com/apk/res/android"
+    anroid:layout_width="match_parent"
+    anroid:layout_height="wrap_content"
+    anroid:orientation="vertical">
+    <ImageView
+        anroid:id="@+id/imgv_appicon_cacheclean"
+        anroid:layout_width="50dp"
+        anroid:layout_height="50dp"
+        anroid:layout_centerVertical="true"
+        anroid:layout_alignParentLeft="true"
+        anroid:layout_margin="5dp"
+        />
+    <TextView
+        anroid:id="@+id/tv_appname_cacheclean"
+        style="@style/textview16sp"
+        anroid:layout_toRightOf="@id/imgv_appicon_cacheclean"
+        anroid:layout_marginTop="10dp"
+        anroid:layout_marginLeft="10dp"
+        anroid:maxLength="24"
+
+        />
+    <TextView
+        anroid:id="@+id/tv_appsize_cacheclean"
+        style="@style/textview12sp"
+        anroid:layout_below="@id/tv_appname_cacheclean"
+        anroid:layout_toRightOf="@id/imgv_appicon_cacheclean"
+        anroid:layout_marginTop="5dp"
+        anroid:layout_marginLeft="10dp"
+        />
+    <ImageView
+        anroid:layout_width="wrap_content"
+        anroid:layout_height="wrap_content"
+        anroid:layout_alignParentRight="true"
+        anroid:layout_marginRight="10dp"
+        anroid:layout_centerVertical="true"
+        anroid:background="@drawable/cachescan_righticon"
+
+        />
+
+</RelativeLayout>

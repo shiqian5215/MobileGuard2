@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--显示下一步，下一个页面进来的效果-->
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <rotate
+        android:fromDegrees="+360"
+        android:toDegrees="0"
+        android:pivotX="10%"
+        android:pivotY="100%"
+        android:duration="1500" />
+</set>
